@@ -1,5 +1,5 @@
 import { atom, selector, selectorFamily } from 'recoil';
-import { MemoryFileSystem } from '../services/fs/memoryFs';
+import { MemoryFileSystem } from '@/services/fs/memoryFs';
 
 export interface Buffer {
   name: string;

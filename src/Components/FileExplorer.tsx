@@ -3,8 +3,8 @@ import TreeItem from '@mui/lab/TreeItem';
 import { Stack } from '@mui/material';
 import { FC } from 'react';
 import { useSetRecoilState } from 'recoil';
-import { CurrentBufferName, OpenedBuffers } from '../states/buffer';
-import {FolderOff, FolderOpen} from '@mui/icons-material'
+import { CurrentBufferName, OpenedBuffers } from '@/states/buffer';
+import { FolderOff, FolderOpen } from '@mui/icons-material'
 
 interface RenderTree {
   id: string;

@@ -1,10 +1,4 @@
-import {
-  Container,
-  createTheme,
-  Divider,
-  Stack,
-  ThemeProvider,
-} from '@mui/material';
+import { Container, createTheme, Divider, Stack, ThemeProvider } from '@mui/material';
 import { FileExplorer } from './Components/FileExplorer';
 import { CodeEditor } from './Components/CodeEditor';
 

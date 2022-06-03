@@ -3,11 +3,7 @@ import { FC, useState } from 'react';
 import * as monaco from 'monaco-editor';
 import { ButtonGroup, Stack, Button, Divider, Chip } from '@mui/material';
 import { useRecoilValue, useSetRecoilState } from 'recoil';
-import {
-  CurrentBufferName,
-  LoadCurrentBuffer,
-  OpenedBuffers,
-} from '../states/buffer';
+import { CurrentBufferName, LoadCurrentBuffer, OpenedBuffers } from '@/states/buffer';
 
 interface BufferTabItemProps {
   bufferName: string;
